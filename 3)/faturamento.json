@@ -1,0 +1,25 @@
+{
+    "faturamento_diario": [
+        {"dia": 1, "valor": 0},
+        {"dia": 2, "valor": 150},
+        {"dia": 3, "valor": 200},
+        {"dia": 4, "valor": 0},
+        {"dia": 5, "valor": 180},
+        {"dia": 6, "valor": 220},
+        {"dia": 7, "valor": 0},
+        {"dia": 8, "valor": 170},
+        {"dia": 9, "valor": 0},
+        {"dia": 10, "valor": 250},
+        {"dia": 11, "valor": 300},
+        {"dia": 12, "valor": 0},
+        {"dia": 13, "valor": 230},
+        {"dia": 14, "valor": 220},
+        {"dia": 15, "valor": 260},
+        {"dia": 16, "valor": 120},
+        {"dia": 17, "valor": 232},
+        {"dia": 18, "valor": 120},
+        {"dia": 19, "valor": 225},
+        {"dia": 20, "valor": 284}
+
+    ]
+}

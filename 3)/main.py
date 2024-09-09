@@ -8,7 +8,6 @@ def calcular_faturamento(faturamentos):
     if not faturamentos_validos:
         return None, None, 0
 
-
     menor_faturamento = min(faturamentos_validos)
 
 
@@ -22,15 +21,12 @@ def calcular_faturamento(faturamentos):
 
     return menor_faturamento, maior_faturamento, dias_acima_media
 
-
 def main():
 
     with open('faturamento.json', 'r') as arquivo:
         dados = json.load(arquivo)
 
-
     faturamentos = [item['valor'] for item in dados['faturamento_diario']]
-
 
     menor, maior, dias_acima_media = calcular_faturamento(faturamentos)
 
@@ -41,7 +37,6 @@ def main():
             f"Número de dias no mês em que o valor de faturamento diário foi superior à média mensal: {dias_acima_media}")
     else:
         print("Não há faturamentos válidos para calcular as estatísticas.")
-
 
 if __name__ == "__main__":
     main()
